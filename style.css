@@ -108,8 +108,7 @@ body {
 /* Partials */
 .section-img {
     padding: 50px 0px 50px 0px;
-    zoom: 70%;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 

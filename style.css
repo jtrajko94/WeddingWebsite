@@ -1,30 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Great+Vibes&display=swap');
 
+:root {
+    --primary-color: #E8C7C8; 
+}
+
 body {
     height:100%;
     font-family: 'Cormorant Garamond', 'serif';
 }
 
 .bg-primary {
-    background-color: #fecda5 !important;
+    background-color: var(--primary-color) !important;
 }
 
+/* Navigation */
 .navbar-nav .nav-item .nav-link {
-    color: tomato;
+    color: #000;
+    font-size: large;
 }
 
-.rsvp-button {
-    height: 40px;
-    width: 100px;
+.nav-link:hover {
+    color: var(--primary-color) !important;
 }
 
+.navbar-toggler {
+    background-color: var(--primary-color);
+}
+
+/* Hero Section */
 .hero-container {
-    background-image: url("/img/hero.jpeg");
+    background-image: url("/img/hero.PNG");
     background-repeat: no-repeat;
     background-size: 100%;
     height: 50vh;
     width: 100%;
-    filter: brightness(70%);
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -41,6 +50,25 @@ body {
     font-family: 'Great Vibes', 'cursive';
 }
 
+.rsvp-button {
+    height: 40px;
+    width: 150px;
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 4px;
+    color: #000;
+}
+
+.rsvp-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* Media Queries */
 @media screen and (min-width: 390px) {
     .hero-container {
       background-position: center;

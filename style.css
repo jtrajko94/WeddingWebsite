@@ -67,6 +67,44 @@ body {
     color: #000;
 }
 
+/* Home Page Cards */
+.home-cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.home-cards .card {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+    height: 450px;
+}
+
+.home-cards .card .card-title {
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 30px;
+}
+
+.home-cards .card .button a {
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: 700;
+    color: #000;
+}
+
+.home-cards .card .button a:hover {
+    background-color: #f0d1d1;
+    color: #000;
+}
+
+.home-cards .card i {
+    font-size: 30px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    padding: 30px;
+}
+
 /* Partials */
 .section-img {
     padding: 50px 0px 50px 0px;

@@ -28,6 +28,10 @@ body {
     background-color: var(--primary-color);
 }
 
+.nav-link.active-link {
+    border-bottom: 3px solid var(--primary-color);
+}
+
 /* Hero Section */
 .hero-container {
     background-image: url("/img/hero.PNG");
@@ -144,6 +148,37 @@ body {
     padding: 30px;
 }
 
+/* Wedding Party Cards */
+.wedding-party-cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.wedding-party-cards .card {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+    height: 450px;
+}
+
+.wedding-party-cards .card .card-title {
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 30px;
+    text-align: center;
+}
+
+.wedding-party-cards .card .card-caption-container {
+    text-align: center;
+    margin: 5px;
+}
+
+.wedding-party-cards .card .wedding-party-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
 /* Footer */
 footer {
     margin-top: 20px;
@@ -165,6 +200,10 @@ footer {
     font-size: 40px;
     text-align: center;
     padding: 40px 0px 0px 0px;
+}
+
+.section-description {
+    text-align: center;
 }
 
 .white-border {

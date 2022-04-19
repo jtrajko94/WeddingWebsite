@@ -144,6 +144,14 @@ body {
     padding: 30px;
 }
 
+/* Footer */
+footer {
+    margin-top: 20px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Great Vibes', 'cursive';
+    background-color: var(--primary-color);
+}
 
 /* Partials */
 .section-img {

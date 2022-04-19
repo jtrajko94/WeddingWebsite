@@ -7,6 +7,7 @@
 body {
     height:100%;
     font-family: 'Cormorant Garamond', 'serif';
+    background-color: #f4f0ed;
 }
 
 .bg-primary {
@@ -84,6 +85,7 @@ body {
 .home-cards .card .card-title {
     font-family: 'Great Vibes', 'cursive';
     font-size: 30px;
+    text-align: center;
 }
 
 .home-cards .card .button a {
@@ -105,11 +107,66 @@ body {
     padding: 30px;
 }
 
+/* Venue Cards */
+.venue-cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.venue-cards .card {
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+    height: 300px;
+}
+
+.venue-cards .card .card-title {
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 30px;
+    text-align: center;
+}
+
+.venue-cards .card .card-text-time {
+    font-size: 20px;
+    text-align: center;
+}
+
+.venue-cards .card .card-text-date {
+    font-size: 20px;
+    text-align: center;
+}
+
+.venue-cards .card i {
+    font-size: 30px;
+    background: var(--primary-color);
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
 /* Partials */
 .section-img {
     padding: 50px 0px 50px 0px;
     max-width: 100%;
     height: auto;
+}
+
+.section-title {
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.white-border {
+    border: #fff;
+    border-style: double;
+}
+
+.blush-border {
+    border: var(--primary-color);
+    border-style: double;
 }
 
 
